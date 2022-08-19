@@ -1,11 +1,6 @@
-[README em Português](readme_pt.md) BR
-----
-
-## Data Modeling and Data Pipeline in a Songs Streaming App 🎼
-This case simulates activities from a songs streaming app. <br>
-The final objective is to understand `which songs the users are listening and their habits of using the app`<br>
-It was necessary to build a `otimized database` focused in facilite the SQL analysis process for the app data analytics team. <br>
-
+## Modelagem e Pipeline de Dados em um app de Streaming de Músicas 🎼
+Este case simula as atividades de um app de streaming de músicas. <br>
+O objetivo final do time de data analytics do app é entender `quais músicas os usuários estão ouvindo e os seus hábitos de uso no app` <br>
 Portanto, era preciso construir um `banco de dados otimizado` com foco em facilitar o processo de análise dos dados em SQL <br>  
 #### 🛠Para isso foi realizado:
 1. Modelagem dos dados relacionais;  
