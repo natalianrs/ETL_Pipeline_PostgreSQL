@@ -4,7 +4,7 @@
 
 ## Estrutura do repositório 
 ├── data                   # .JSON files <br>
-│   ├── song_data						          # Sub-dataset de "Milion Song Dataset" contendo metadata de músicas <br>
+|     ├── song_data        # Sub-dataset de "Milion Song Dataset" contendo metadata de músicas <br>
 
 │   └── log_data           # Logs de atividades de usuários gerado por 'Event Data Simulator' (https://github.com/Interana/eventsim) 
 ├── sql_queries.py         # Py script contém SQL queries usadas no processo de ETL
