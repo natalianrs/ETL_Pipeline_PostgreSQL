@@ -37,7 +37,6 @@ Foi criado um esquema estrela desnormalizado, com a tabela de fatos "songplays" 
     ├── create_tables.py       # Python script contém rotinas para conectar ao BD, criar e dropar tabelas; Usado durante o desenvolvimento/testes do pipeline;
     ├── sql_queries.py         # Python script contendo SQL queries (CREATE/DROP/INSERT/DELETE statements e Joins);
     ├── elt.py                 # ETL script em Python; Extrai os dados da fonte e carrega no banco de dados PostgreSQL. 
-    ├── etl.ipynb              # Jupyter notebook com o passo-a-passo explicativo do pipeline em etl.py;     
     ├── test.ipynb             # Jupyter notebook contem rotinas para testar a criação das tabelas; 
     └── README.md
 
