@@ -5,7 +5,7 @@ The final objective is to understand `which songs the users are listening and th
 It was necessary to build a `otimized database` focused in facilite the SQL analysis process for the app data analytics team. <br>
 
 Portanto, era preciso construir um `banco de dados otimizado` com foco em facilitar o processo de análise dos dados em SQL <br>  
-#### 🛠Para isso foi realizado:
+#### 🛠 Project Structure:
 1. Modelagem dos dados relacionais;  
 2. Coleta de dados das músicas e os logs de atividades dos usuários no app; 
 3. Carregamento dos dados em um Data Warehouse em PostgreSQL;
