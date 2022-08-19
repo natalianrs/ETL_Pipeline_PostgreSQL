@@ -1,4 +1,4 @@
-[README em Português](readme_pt.md) BR
+[README em Português](README_pt.md) BR
 ----
 
 ## Data Modeling and Data Pipeline in a Songs Streaming App 🎼
