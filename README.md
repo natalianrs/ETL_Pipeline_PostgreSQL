@@ -1,4 +1,4 @@
-## Modelagem e Coleta de Dados em um app de Streaming de Músicas 🎼
+## Modelagem e Pipeline de Dados em um app de Streaming de Músicas 🎼
 Este case simula as atividades de um app de streaming de músicas. <br>
 O objetivo final do time de data analytics do app é entender `quais músicas os usuários estão ouvindo e os seus hábitos de uso no app` <br>
 Portanto, era preciso construir um `banco de dados otimizado` com foco em facilitar o processo de análise dos dados em SQL <br>  
