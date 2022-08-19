@@ -21,7 +21,7 @@ Foi criado um esquema estrela desnormalizado, com a tabela de fatos "songplays" 
 ![main](data_model_postgre.png)
 
 ## Pipeline de Dados ⚙
-`sql_queries.py` é um modulo, a ser importado em ETL.py, que contem queries de DROP / CREATE / INSERT,  consultas SELECT com JOINS.<br>
+`sql_queries.py` é um modulo, a ser importado em ETL.py, que contem rotinas de DROP / CREATE / INSERT,  consultas SELECT com JOINS.<br>
 `create_tables.py` é um script para criar novas tabelas, e deletar tabelas existentes (caso existam!) <br> 
 `ETL.py` é script escrito em python com funções para conectar com o banco de dados, processar os dados na fonte, e carregar os dados nas tabelas já existentes. 
  
