@@ -1,28 +1,35 @@
 ## Modelagem e Coleta de Dados em um app de Streaming de Músicas 🎼
 Este case simula as atividades de um app de streaming de músicas. <br>
 O objetivo final do time de data analytics do app é entender `quais músicas os usuários estão ouvindo e os seus hábitos de uso no app` <br>
-Portanto, precisavámos construir um `banco de dados otimizado` com foco em facilitar o processo de análise dos dados em SQL <br>  
- 🛠Para isso foi realizado: 
+Portanto, era preciso construir um `banco de dados otimizado` com foco em facilitar o processo de análise dos dados em SQL <br>  
+#### 🛠Para isso foi realizado: 
 1. Modelagem dos dados relacionais;  
 2. Coleta de dados das músicas e os logs de atividades dos usuários no app; 
 3. Carregamento dos dados em um Data Warehouse em PostgreSQL;
 
 ![main](etl-pipeline.png)
 
-## Fontes de Dados 💾
+## Dados 💾
 Foram usadas duas fontes de dados distintas. <br>
 A 1a fonte é um sub-dataset do ["Milion Song Dataset"](http://millionsongdataset.com/) que contém `metadata de milhões de músicas`. <br> 
 A 2a fonte de dados consiste em `logs de atividades` que foram geradas usando o ['Eventsim'](https://github.com/Interana/eventsim) para simular usuários reais do app.
 > Todos os dados estão estruturados em arquivos .json
 
-## Modelagem de Dados 🗃
+### Modelagem de Dados
 Os dados foram modelados com o objetivo final de otimizar o processo de consultas SQL. <br>
 Foi criado um esquema estrela desnormalizado, com a tabela de fatos "songplays" que nos fornece a info da música ouvida em determinado log de atividade. E as tabelas dimensionais que nos fornecem características adicionais dos fatos. 
 ![main](data_model_postgre.png)
 
-## Criação do Pipeline de Dados 
+## Pipeline de Dados ⚙
+`sql_queries.py` é um modulo, a ser importado em ETL.py, que contem queries de DROP / CREATE / INSERT,  consultas SELECT com JOINS.
+`create_tables.py` é um script para criar novas tabelas, e deletar tabelas existentes (caso existam!) <br> 
+`ETL.py` é script escrito em python com funções para conectar com o banco de dados, processar os dados na fonte, e carregar os dados nas tabelas já existentes. 
+ 
+#### Como executar o pipeline de dados 
+1. Execute `$ python create_tables.py` para criar novas tabelas, e resetar as existentes (caso existam);
+2. Execute `$ python etl.py` para iniciar a coleta e carregamento de dados;
 
-## Estrutura do repositório 
+## Estrutura do repositório 📂
 
     ├── data                   # .JSON files 
     |    ├── song_data         # Sub-dataset de "Milion Song Dataset" contendo metadata de músicas 
