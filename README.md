@@ -34,11 +34,11 @@ Foi criado um esquema estrela desnormalizado, com a tabela de fatos "songplays" 
     ├── data                   # .JSON files 
     |    ├── song_data         # Sub-dataset de "Milion Song Dataset" contendo metadata de músicas 
     │    └── log_data          # Logs de atividades de usuários gerado em'Event Data Simulator'
-    ├── sql_queries.py         # Python script contendo SQL queries (CREATE/DROP/INSERT/DELETE statements e Joins);
-    ├── elt.py                 # ETL script em Python; Extrai os dados da fonte, processa e insere no banco de dados PostgreSQL. 
-    ├── etl.ipynb              # Jupyter notebook com o passo-a-passo explicativo do pipeline; 
     ├── create_tables.py       # Python script contém rotinas para conectar ao BD, criar e dropar tabelas; Usado durante o desenvolvimento/testes do pipeline;
-    ├── test.ipynb             # Jupyter notebook contem rotinas para testar se as tabelas foram criadas corretamente; 
+    ├── sql_queries.py         # Python script contendo SQL queries (CREATE/DROP/INSERT/DELETE statements e Joins);
+    ├── elt.py                 # ETL script em Python; Extrai os dados da fonte e carrega no banco de dados PostgreSQL. 
+    ├── etl.ipynb              # Jupyter notebook com o passo-a-passo explicativo do pipeline em etl.py;     
+    ├── test.ipynb             # Jupyter notebook contem rotinas para testar a criação das tabelas; 
     └── README.md
 
 
