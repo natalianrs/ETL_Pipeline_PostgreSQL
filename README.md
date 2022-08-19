@@ -1,7 +1,5 @@
-[README em Português](README_pt.md) BR
-----
-
 ## Data Modeling and Data Pipeline in a Songs Streaming App 🎼
+###### [README em Português](README_pt.md) BR
 This case simulates activities from a songs streaming app. <br>
 The final objective is to understand `which songs the users are listening and their habits of using the app`<br>
 It was necessary to build a `otimized database` focused in facilite the SQL analysis process for the app data analytics team. <br>
