@@ -1,4 +1,4 @@
-<div align=right>
+<div align=left>
 <a href="/README_pt.md"><img src="https://custom-icon-badges.herokuapp.com/badge/-ReadMe em Português BR-plum?style=for-the-badge&logo=comment-discussion&logoColor=black"/></a></div>
 
 # Data Modeling and Data Pipeline in a Songs Streaming App 🎼
