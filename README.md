@@ -39,16 +39,16 @@ The data were modeled with the goal of optimizing the SQL query process. <br>
 - The dimensional tables provides us with additional details of the facts table.
 ![main](data_model_postgre.png)
 
-## Pipeline de Dados ⚙
-`sql_queries.py` é um modulo, a ser importado em ETL.py, que contem rotinas de DROP / CREATE / INSERT,  consultas SELECT com JOINS.<br>
-`create_tables.py` é um script para criar novas tabelas, e deletar tabelas existentes (caso existam!) <br> 
-`ETL.py` é script escrito em python com funções para conectar com o banco de dados, processar os dados na fonte, e carregar os dados nas tabelas já existentes. 
+## Data Pipeline ⚙
+`sql_queries.py` is a module to be imported by ETL.py.   
+`create_tables.py` is a python script to run in the development phase, in order to create new tables and drop old ones.   
+`ETL.py` is the main script that connect to the database, extract/process/load data into the datawarehouse. 
  
-#### Como executar o pipeline de dados
-1. Execute `$ python create_tables.py` para criar novas tabelas, e resetar as existentes (caso existam);
-2. Execute `$ python etl.py` para iniciar a coleta e carregamento de dados;
+#### How to execute
+1. Execute `$ python create_tables.py`;
+2. Execute `$ python etl.py`;
 
-
+👍
 
 
 
