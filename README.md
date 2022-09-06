@@ -1,7 +1,7 @@
 <div align=left>
 <a href="/README_pt.md"><img src="https://custom-icon-badges.herokuapp.com/badge/-ReadMe em Português BR-plum?style=for-the-badge&logo=comment-discussion&logoColor=black"/></a></div>
 
-# Data Modeling and Data Pipeline in a Songs Streaming App 🎼 
+# Data Pipeline in a Music Streaming App 🎼 
 - In a music streaming app, the data analytics team `analyzes data collected to understand the users habits and interests` 
 in order to identify opportunities for improvement in the services, targeting business growth and optimization. 
 - The data that needs to be analyzed contains song's informations and user's informations/logs, and they are stored in different places.
