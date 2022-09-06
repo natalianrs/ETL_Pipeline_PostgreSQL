@@ -2,7 +2,7 @@
 
 # Pipeline de Dados para um app de Streaming de Músicas 🎼
 - Em um aplicativo de streaming de músicas, o time de data analytics `analiza os dados coletados para entender os hábitos e interesses dos usuários` com o objetivo de identificar oportunidades de melhoria nos serviços,  almejando o crescimento e a optimização do negócio.
-- Os dados que precisam ser analizados contem informações das músicas disponíveis e dos usuários do app, e estão salvos em dois lugares diferentes dificultado o processo de realização de consultas.
+- Os dados que precisam ser analisados estão sendo coletados e salvos em dois lugares diferentes dificultando o processo de realização de consultas.
 - Objetivando uma maneira simples de analizar os dados,  um datawarehouse foi construído para salvar todos os dados em conjunto de uma forma estruturada usando tabelas dimensionais. 
 - Este método simplica a maneira de realizar consultas e proporciona resultados para o business analytics com mais rapidez e facilidade.  
 
