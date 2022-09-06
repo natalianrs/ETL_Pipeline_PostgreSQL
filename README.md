@@ -8,11 +8,10 @@ in order to identify opportunities for improvement in the services, targeting bu
 - In order to achieve a simpler way to analyze the data, an otimized datawarehouse was build to stored all the data together, in a strutured aggregated way using dimensions.   
 - This method simplified the data analytics team way of doing queries and provide an easy and faster results for the business strategy . 
 
-
 ## 🛠 Project Structure:
-1. Modelagem dos dados relacionais;  
-2. Coleta de dados das músicas e os logs de atividades dos usuários no app; 
-3. Carregamento dos dados em um Data Warehouse em PostgreSQL;
+1. Dimensional Data Modeling;  
+2. Data extraction and collection;
+3. Loading data into a Data Warehouse based in PostgreSQL;
 
 ![main](etl-pipeline.png)
 ### Estrutura do repositório 📂
