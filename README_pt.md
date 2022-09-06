@@ -1,5 +1,6 @@
-## Modelagem e Pipeline de Dados em um app de Streaming de Músicas 🎼
 <a href="/README.md"><img src="https://custom-icon-badges.herokuapp.com/badge/-ReadMe in English-plum?style=for-the-badge&logo=comment-discussion&logoColor=black"/></a>
+
+## Modelagem e Pipeline de Dados em um app de Streaming de Músicas 🎼
 
 Este case simula as atividades de um app de streaming de músicas. <br>
 O objetivo final do time de data analytics do app é entender `quais músicas os usuários estão ouvindo e os seus hábitos de uso no app` <br>
