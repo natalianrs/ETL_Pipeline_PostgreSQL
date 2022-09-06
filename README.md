@@ -4,7 +4,7 @@
 # Data Pipeline in a Music Streaming App 🎼 
 - In a music streaming app, the data analytics team `analyzes data collected to understand the users habits and interests` 
 in order to identify opportunities for improvement in the services, targeting business growth and optimization. 
-- The data that needs to be analyzed contains song's informations and user's informations/logs, and they are stored in different places.
+- The data that needs to be analyzed are stored in different places making it difficult to analyze using SQL queries. 
 - In order to achieve a simpler way to analyze the data, an otimized datawarehouse was build to stored all the data together, in a strutured aggregated way using dimensions.   
 - This method simplified the data analytics team way of doing queries and provide an easy and faster results for the business strategy . 
 
