@@ -1,9 +1,9 @@
-## Data Modeling and Data Pipeline in a Songs Streaming App 🎼
+## Data Modeling and ETL Data Pipeline in a Songs Streaming App 🎼
 <a href="/README_pt.md"><img src="https://custom-icon-badges.herokuapp.com/badge/-ReadMe em Português BR-plum?style=for-the-badge&logo=comment-discussion&logoColor=black"/></a>
 
 This case simulates activities from a songs streaming app. <br>
 The final objective is to understand `which songs the users are listening and their habits of using the app`<br>
-It was necessary to build a `otimized database` focused in facilite the SQL analysis process for the app data analytics team. <br>
+It was necessary to build a `otimized database` focused in facilitate SQL analysis process for the data analytics team. <br>
 
 Portanto, era preciso construir um `banco de dados otimizado` com foco em facilitar o processo de análise dos dados em SQL <br>  
 #### 🛠 Project Structure:
