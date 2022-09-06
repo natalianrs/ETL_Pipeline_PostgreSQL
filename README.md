@@ -4,8 +4,8 @@
 # Data Modeling and Data Pipeline in a Songs Streaming App 🎼
 
 
-This case simulates activities from a songs streaming app. <br>
-The final objective is to understand `which songs the users are listening and their habits of using the app`<br>
+This case simulates activities from a songs streaming app.  
+The final objective is to understand `which songs the users are listening and their habits of using the app`.
 It was necessary to build a `otimized database` focused in facilite the SQL analysis process for the app data analytics team. <br>
 
 Portanto, era preciso construir um `banco de dados otimizado` com foco em facilitar o processo de análise dos dados em SQL <br>  
