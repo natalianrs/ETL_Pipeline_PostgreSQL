@@ -1,4 +1,4 @@
-## Data Modeling and Data Pipeline in a Songs Streaming App 🎼
+# Data Modeling and Data Pipeline in a Songs Streaming App 🎼
 <a href="/README_pt.md"><img src="https://custom-icon-badges.herokuapp.com/badge/-ReadMe em Português BR-plum?style=for-the-badge&logo=comment-discussion&logoColor=black"/></a>
 
 This case simulates activities from a songs streaming app. <br>
@@ -6,12 +6,24 @@ The final objective is to understand `which songs the users are listening and th
 It was necessary to build a `otimized database` focused in facilite the SQL analysis process for the app data analytics team. <br>
 
 Portanto, era preciso construir um `banco de dados otimizado` com foco em facilitar o processo de análise dos dados em SQL <br>  
-#### 🛠 Project Structure:
+## 🛠 Project Structure:
 1. Modelagem dos dados relacionais;  
 2. Coleta de dados das músicas e os logs de atividades dos usuários no app; 
 3. Carregamento dos dados em um Data Warehouse em PostgreSQL;
 
 ![main](etl-pipeline.png)
+### Estrutura do repositório 📂
+
+    ├── data                   # .JSON files 
+    |    ├── song_data         # Sub-dataset de "Milion Song Dataset" contendo metadata de músicas 
+    │    └── log_data          # Logs de atividades de usuários gerado em'Event Data Simulator'
+    ├── create_tables.py       # Python script contém rotinas para conectar ao BD, criar e dropar tabelas; Usado durante o desenvolvimento/testes do pipeline;
+    ├── sql_queries.py         # Python script contendo SQL queries (CREATE/DROP/INSERT/DELETE statements e Joins);
+    ├── elt.py                 # ETL script em Python; Extrai os dados da fonte e carrega no banco de dados PostgreSQL. 
+    ├── test.ipynb             # Jupyter notebook contendo consultas SQL para testar a criação das tabelas e carregamento dos dados; 
+    └── README.md
+
+
 
 ## Dados 💾
 Foram usadas duas fontes de dados distintas. <br>
@@ -33,16 +45,6 @@ Foi criado um esquema estrela desnormalizado, com a tabela de fatos "songplays" 
 1. Execute `$ python create_tables.py` para criar novas tabelas, e resetar as existentes (caso existam);
 2. Execute `$ python etl.py` para iniciar a coleta e carregamento de dados;
 
-## Estrutura do repositório 📂
-
-    ├── data                   # .JSON files 
-    |    ├── song_data         # Sub-dataset de "Milion Song Dataset" contendo metadata de músicas 
-    │    └── log_data          # Logs de atividades de usuários gerado em'Event Data Simulator'
-    ├── create_tables.py       # Python script contém rotinas para conectar ao BD, criar e dropar tabelas; Usado durante o desenvolvimento/testes do pipeline;
-    ├── sql_queries.py         # Python script contendo SQL queries (CREATE/DROP/INSERT/DELETE statements e Joins);
-    ├── elt.py                 # ETL script em Python; Extrai os dados da fonte e carrega no banco de dados PostgreSQL. 
-    ├── test.ipynb             # Jupyter notebook contem rotinas para testar a criação das tabelas e carregamento; 
-    └── README.md
 
 
 
