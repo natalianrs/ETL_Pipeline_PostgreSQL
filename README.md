@@ -1,14 +1,14 @@
 <div align=left>
 <a href="/README_pt.md"><img src="https://custom-icon-badges.herokuapp.com/badge/-ReadMe em Português BR-plum?style=for-the-badge&logo=comment-discussion&logoColor=black"/></a></div>
 
-# Data Modeling and Data Pipeline in a Songs Streaming App 🎼
+# Data Modeling and Data Pipeline in a Songs Streaming App 🎼 
+- In a music streaming app, the data analytics team `analyzes data collected to understand the users habits and interests` 
+in order to identify opportunities for improvement in the services, targeting business growth and optimization. 
+- The data that needs to be analyzed contains song's informations and user's informations/logs, and they are stored in different places.
+- In order to achieve a simpler way to analyze the data, an otimized datawarehouse was build to stored all the data together, in a strutured aggregated way using dimensions.   
+- This method simplified the data analytics team way of doing queries and provide an easy and faster results for the business strategies . 
 
 
-This case simulates activities from a songs streaming app.  
-The final objective is to understand `which songs the users are listening and their habits of using the app`.
-It was necessary to build a `otimized database` focused in facilite the SQL analysis process for the app data analytics team. <br>
-
-Portanto, era preciso construir um `banco de dados otimizado` com foco em facilitar o processo de análise dos dados em SQL <br>  
 ## 🛠 Project Structure:
 1. Modelagem dos dados relacionais;  
 2. Coleta de dados das músicas e os logs de atividades dos usuários no app; 
