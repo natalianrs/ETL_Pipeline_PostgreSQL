@@ -1,6 +1,6 @@
 <a href="/README.md"><img src="https://custom-icon-badges.herokuapp.com/badge/-ReadMe in English-plum?style=for-the-badge&logo=comment-discussion&logoColor=black"/></a>
 
-## Pipeline de Dados para um app de Streaming de Músicas 🎼
+# Pipeline de Dados para um app de Streaming de Músicas 🎼
 - Em um aplicativo de streaming de músicas, o time de data analytics `analiza os dados coletados para entender os hábitos e interesses dos usuários` com o objetivo de identificar oportunidades de melhoria nos serviços,  almejando o crescimento e a optimização do negócio.
 - Os dados que precisam ser analizados contem informações das músicas disponíveis e dos usuários do app, e estão salvos em dois lugares diferentes. 
 - Objetivando uma maneira simples de analizar os dados,  um datawarehouse foi construído para salvar todos os dados em conjunto de uma forma estruturada usando tabelas dimensionais. 
