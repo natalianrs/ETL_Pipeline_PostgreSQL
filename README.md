@@ -1,7 +1,7 @@
 # Building a data model and an ETL data pipeline 
 ## 🛠 Project Structure:
 1. Dimensional Data Modeling;  
-2. Data extraction and collection;
+2. Data extraction;
 3. Loading data into a Data Warehouse based in PostgreSQL;
 
 ![main](etl-pipeline.png)
